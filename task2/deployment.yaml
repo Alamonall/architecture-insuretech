@@ -19,6 +19,6 @@ spec:
         image: ghcr.io/yandex-practicum/scaletestapp@sha256:eff20ae3ae2d596375f9ed6d612a78d149a35a66cd2907ea90d7175ca918c993.sig
         resources:
           limits:
-            memory: "30Mi"
+            memory: "30Mi" 
         ports:
         - containerPort: 8080
